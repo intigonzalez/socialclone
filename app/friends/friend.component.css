@@ -1,0 +1,24 @@
+.thumbnail {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    background-color: #020060;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.friend-picture {
+    margin: 5%;
+    width: 90%;
+    height: auto;
+}
+
+/* Scale the images on hover, add transitions for smoothing things out, and ensure the hover appears on top */
+.thumbnail:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+}

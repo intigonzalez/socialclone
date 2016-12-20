@@ -1,0 +1,21 @@
+.circular-image {
+  border-radius:  999em;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+  background: #b3dced; /* Old Browsers */
+ 	background: -webkit-gradient(left top, right top, color-stop(0%, #b3dced), color-stop(50%, #29b8e5), color-stop(100%, #bce0ee)); /* Chrome, Safari4+ */
+ 	background: -webkit-linear-gradient(left, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* Chrome10+,Safari5.1+ */
+ 	background: -ms-linear-gradient(left, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* IE 10+ */
+ 	background: linear-gradient(to right, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* W3C */
+}
+
+div.gradient {
+  width: 130px;
+  height: auto;
+
+  border-radius: 999em;
+ 	padding: 5px;
+ 	line-height: 0;
+}
